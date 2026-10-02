@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import mountainView from "@/assets/mountain-view.png";
+import mountainView from "@/assets/view.png";
 import { SectionHeading } from "./Reveal";
 
 export function Views() {

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Phone, MessageCircle, ChevronDown } from "lucide-react";
-import heroImage from "@/assets/view-sunrise.png";
+import heroImage from "@/assets/image1.png";
 import { telHref, waLink } from "@/lib/hotel";
 
 const badges = [

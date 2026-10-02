@@ -12,7 +12,7 @@ import {
   Sun,
   ShieldCheck,
 } from "lucide-react";
-import bathroom from "@/assets/bathroom.png";
+import nightviewImg from "@/assets/nightview.png";
 import { Reveal, SectionHeading } from "./Reveal";
 
 const facilities = [
@@ -37,8 +37,8 @@ export function Facilities() {
         <div className="grid gap-14 lg:grid-cols-[1fr_1.15fr] lg:items-center lg:gap-20">
           <Reveal>
             <img
-              src={bathroom}
-              alt="Modern tiled bathroom with walk-in shower at Hotel Solan Regency"
+              src={nightviewImg}
+              alt="Night view of Solan city lights from Hotel Solan Regency"
               loading="lazy"
               className="h-[420px] w-full object-cover lg:h-[600px]"
             />

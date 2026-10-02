@@ -11,19 +11,33 @@ import mountainView from "@/assets/mountain-view.png";
 import roomDouble from "@/assets/room-double.png";
 import terrace from "@/assets/terrace-night.png";
 import roomClassic from "@/assets/room-classic.png";
+import image1 from "@/assets/image1.png";
+import rooom from "@/assets/rooom.png";
+import rooom2 from "@/assets/rooom2.png";
+import reception from "@/assets/reception.png";
+import nightview from "@/assets/nightview.png";
+import nightview2 from "@/assets/nightview2.png";
+import view from "@/assets/view.png";
 import { SectionHeading } from "./Reveal";
 
 const images = [
-  { src: sunrise, alt: "Sunrise over the Himalayan ranges near Solan", span: "lg:col-span-2 lg:row-span-2" },
+  { src: image1, alt: "Hotel terrace with snow-capped Himalayan mountains at dusk", span: "lg:col-span-2 lg:row-span-2" },
+  { src: rooom, alt: "Double room with dark accent wall and elegant decor at Hotel Solan Regency", span: "" },
+  { src: reception, alt: "Hotel Solan Regency reception and front desk", span: "" },
+  { src: view, alt: "Panoramic daytime view of Solan city and mountains from the hotel", span: "lg:col-span-2" },
+  { src: rooom2, alt: "Spacious family room with patterned wall and sofa seating at Hotel Solan Regency", span: "" },
+  { src: nightview, alt: "Night view of Solan city lights from Hotel Solan Regency rooftop", span: "" },
+  { src: sunrise, alt: "Sunrise over the Himalayan ranges near Solan", span: "lg:col-span-2" },
   { src: roomFamily, alt: "Family room with wooden headboard at Hotel Solan Regency", span: "" },
   { src: exterior, alt: "Terrace view over the hillside town of Solan", span: "" },
+  { src: nightview2, alt: "Night cityscape of Solan from the hotel terrace", span: "lg:col-span-2 lg:row-span-2" },
   { src: roomDeluxe, alt: "Double room with decorative wall at Hotel Solan Regency", span: "" },
   { src: bathroom, alt: "Modern bathroom with walk-in shower at Hotel Solan Regency", span: "" },
   { src: dining, alt: "Indian dishes served at Hotel Solan Regency", span: "lg:col-span-2" },
-  { src: mountainView, alt: "Panorama of Solan city against the mountains", span: "lg:col-span-2" },
+  { src: mountainView, alt: "Panorama of Solan city against the mountains", span: "" },
   { src: roomDouble, alt: "Double bedroom with accent wall at Hotel Solan Regency", span: "" },
   { src: terrace, alt: "Rooftop terrace at night overlooking Solan city lights", span: "" },
-  { src: roomClassic, alt: "Room with patterned duvet and warm lighting", span: "lg:col-span-2" },
+  { src: roomClassic, alt: "Room with patterned duvet and warm lighting", span: "" },
 ];
 
 export function Gallery() {

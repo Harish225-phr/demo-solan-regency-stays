@@ -1,7 +1,7 @@
 import { Check, Star, MapPin, Mountain, BedDouble, Wifi, Car } from "lucide-react";
 import { motion } from "framer-motion";
 import exterior from "@/assets/hotel-exterior.png";
-import terrace from "@/assets/terrace-night.png";
+import reception from "@/assets/reception.png";
 import { Reveal, SectionHeading } from "./Reveal";
 import { waLink } from "@/lib/hotel";
 
@@ -43,8 +43,8 @@ export function Intro() {
             />
           </div>
           <img
-            src={terrace}
-            alt="Rooftop terrace seating at Hotel Solan Regency at dusk"
+            src={reception}
+            alt="Hotel Solan Regency reception and front desk"
             loading="lazy"
             className="absolute -bottom-10 -right-4 hidden h-48 w-64 border-8 border-background object-cover shadow-2xl lg:block"
           />

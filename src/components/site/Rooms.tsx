@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
-import roomDouble from "@/assets/room-double.png";
-import roomFamily from "@/assets/room-family.png";
+import roomDouble from "@/assets/rooom.png";
+import roomFamily from "@/assets/rooom2.png";
 import roomDeluxe from "@/assets/room-deluxe.png";
 import roomClassic from "@/assets/room-classic.png";
 import { Reveal, SectionHeading } from "./Reveal";
@@ -24,13 +24,13 @@ const rooms = [
   {
     name: "Double Room",
     image: roomDouble,
-    alt: "Double room with wooden bed and warm decor at Hotel Solan Regency",
+    alt: "Double room with dark accent wall and warm decor at Hotel Solan Regency",
     text: "Comfortable accommodation with modern essentials.",
   },
   {
     name: "Family Room",
     image: roomFamily,
-    alt: "Spacious family room with wooden headboard at Hotel Solan Regency, Solan",
+    alt: "Spacious family room with patterned wall and sofa seating at Hotel Solan Regency",
     text: "Spacious options suitable for families and groups.",
   },
   {
